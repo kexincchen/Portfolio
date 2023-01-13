@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+// import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/my-photo.jpg";
 import Particle from "../Particle";
 // import Home2 from "./Home2";
 // import Type from "./Type";
@@ -44,6 +45,7 @@ function Home() {
               </i>
               <br />
               <br />
+              You can reach me at kexin1chen  (at)  gmail  (dot)  com
               {/* Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
