@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.9f13120c.css",
-    "main.js": "./static/js/main.cb643d28.js",
+    "main.js": "./static/js/main.e6e150cd.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/my-photo.jpg": "./static/media/my-photo.c4da94c78cf5e729708c.jpg",
-    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "./static/media/Soumyajit_Behera-BIT_MESRA.bbcb2cb6b9e727b164f6.pdf",
+    "static/media/KexinChen-Resume-v2.pdf": "./static/media/KexinChen-Resume-v2.8573771ed4f99ad10053.pdf",
     "static/media/home-bg.jpg": "./static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "./static/media/pre.3129ff983a78c350cfdb.svg",
     "index.html": "./index.html",
     "main.9f13120c.css.map": "./static/css/main.9f13120c.css.map",
-    "main.cb643d28.js.map": "./static/js/main.cb643d28.js.map",
+    "main.e6e150cd.js.map": "./static/js/main.e6e150cd.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f13120c.css",
-    "static/js/main.cb643d28.js"
+    "static/js/main.e6e150cd.js"
   ]
 }
