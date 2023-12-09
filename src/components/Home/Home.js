@@ -31,7 +31,7 @@ function Home() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Python, Javascript and C. </b>
               </i>
               <br />
               <br />

@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
 // import { ImBlog } from "react-icons/im";
 import {
-  // AiFillStar,
+  AiFillStar,
   AiOutlineHome,
-  // AiOutlineFundProjectionScreen,
-  // AiOutlineUser,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -59,7 +59,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -67,9 +67,9 @@ function NavBar() {
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -80,7 +80,7 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
