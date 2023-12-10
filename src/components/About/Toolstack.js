@@ -7,6 +7,7 @@ import {
   SiHeroku,
   SiVercel,
 } from "react-icons/si";
+import { DiVim } from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -17,10 +18,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiVim />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">

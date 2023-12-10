@@ -34,16 +34,16 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/chilichild5"
                 style={{ color: iconColor }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
               </a>
-            </li> */}
+            </li>
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/kexincchen/"

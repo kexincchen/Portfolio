@@ -40,7 +40,7 @@ function Home() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  AI and Game Development.
                 </b>
               </i>
               <br />

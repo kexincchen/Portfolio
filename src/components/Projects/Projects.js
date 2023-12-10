@@ -2,12 +2,18 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
+import hackingera from "../../Assets/Projects/hackingera2.png";
+import teachrobot from "../../Assets/Projects/teachrobot.png";
+import catbox from "../../Assets/Projects/catbox2.png";
+import handsonbeats from "../../Assets/Projects/handsonbeats.PNG";
+import shadowpirate from "../../Assets/Projects/shadowpirate.jpg";
+import plms from "../../Assets/Projects/plms.png";
 
 function Projects() {
   return (
@@ -17,74 +23,72 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p>
-          Here are a few projects I've worked on recently.
-        </p>
+        <p>Here are a few projects I've worked on recently.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={hackingera}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="HackingEra"
+              description="A thrilling game where you fight against scary machines. This game is special because you can switch between two different characters, making the adventure more exciting. We made it using Unity and Shader, so it looks really cool and the action feels real."
+              ghLink="https://github.com/COMP30019/project-2-cheesego"
+              demoLink="https://comp30019.github.io/project-2-cheesego/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={teachrobot}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Teach Robot to move"
+              description="A web application combining Flask, MongoDB, and Three.js to create a user-friendly interface for real-time robot interaction. This project exemplifies my dedication to integrating web technologies with robotics, showcasing an engaging environment for users."
+              ghLink="https://github.com/kexincchen/Teach-Robot-to-move"
+              demoLink="https://drive.google.com/file/d/1me6QFhKTnFgd5tDm5nPJpA5DsHw2-Vmw/view?usp=drive_link"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={catbox}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="CATBox"
+              // description="An innovative web tool, crafted with ChatGPT API, Flask, and Vue.js, designed for bloggers and social media enthusiasts. This platform streamlines content creation by generating contextually relevant captions for images, specifically targeting WeChat users. It also ventures into digital art, creating unique NFT images through DALL-E 3. Bridging AI technology with creative expression, this tool makes content generation effortless and more engaging."
+              description="An innovative web tool, crafted with ChatGPT API, Flask, and Vue.js, designed for bloggers and social media enthusiasts. Focused on WeChat, it effortlessly generates relevant captions for images and creates unique NFTs using DALL-E 3, blending AI with creativity to simplify and enhance content creation."
+              ghLink="https://github.com/am-yang/Caption-Writer-Software"
+              // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={plms}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="InstructAgent" 
+              description="augmented reality (AR) environments. The core of the project involves the integration of the GPT model to enhance user experience in AR.  The GPT model's sophisticated natural language processing abilities are utilized to create more intuitive and user-friendly experiences, ultimately aiming to make these environments more accessible and effective for users with varying attentional needs. "
+              ghLink="https://github.com/kexincchen"
+              demoLink="https://drive.google.com/file/d/1TCk6SzGurKI_ZCwuS1Qr0z5KbGjUejdj/view?resourcekey"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={handsonbeats}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="HandsOnBeats"
+              description="Discover our interactive website, crafted for fun and educational hand gesture learning. Utilizing Vue.js, D3.js, and FastAPI, we offer a user-friendly experience with dynamic visuals. At the heart of our site is advanced hand recognition technology, powered by MediaPipe and our unique database. This project aims to raise awareness and support for people with disabilities."
+              ghLink="https://github.com/kexincchen/HandsOnBeats"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={shadowpirate}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="ShadowPirate"
+              description="A adventurous game, developed using Java and Maven, where you embark on an exciting quest to find hidden treasure. In this game, you'll face off against cunning pirates and gather various tools to aid your journey. Your ultimate goal? To outsmart your foes and uncover the coveted treasure. "
+              ghLink="https://github.com/kexincchen"
+              demoLink="https://b23.tv/tj5kNPt"    
             />
           </Col>
         </Row>

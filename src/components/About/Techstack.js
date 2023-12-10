@@ -9,7 +9,9 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
+// import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
+import { SiPytorch, SiUnrealengine } from "react-icons/si";
+import { FaVuejs, FaUnity } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -43,6 +45,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaVuejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaUnity />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiUnrealengine />
       </Col>
     </Row>
   );
