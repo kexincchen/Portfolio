@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.9f13120c.css",
-    "main.js": "./static/js/main.e6e150cd.js",
-    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
-    "static/media/my-photo.jpg": "./static/media/my-photo.c4da94c78cf5e729708c.jpg",
-    "static/media/KexinChen-Resume-v2.pdf": "./static/media/KexinChen-Resume-v2.8573771ed4f99ad10053.pdf",
-    "static/media/home-bg.jpg": "./static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/pre.svg": "./static/media/pre.3129ff983a78c350cfdb.svg",
-    "index.html": "./index.html",
-    "main.9f13120c.css.map": "./static/css/main.9f13120c.css.map",
-    "main.e6e150cd.js.map": "./static/js/main.e6e150cd.js.map",
-    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.41c5c8d8.css",
+    "main.js": "/static/js/main.26cf80b7.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hackingera2.png": "/static/media/hackingera2.1963bffc05a76e75968d.png",
+    "static/media/about.JPG": "/static/media/about.4dd5428f54673e8b1198.JPG",
+    "static/media/my-photo.jpg": "/static/media/my-photo.b3fac7614dd16cefbccc.jpg",
+    "static/media/plms.png": "/static/media/plms.06cec516dbe59f9e7fbe.png",
+    "static/media/catbox2.png": "/static/media/catbox2.acaa25b9d27dcd407cb5.png",
+    "static/media/KexinChen-Resume-v2.pdf": "/static/media/KexinChen-Resume-v2.a8da9e366bb0983728d1.pdf",
+    "static/media/handsonbeats.PNG": "/static/media/handsonbeats.8303cf46b25579a76e15.PNG",
+    "static/media/teachrobot.png": "/static/media/teachrobot.ee0864c0135873944a7b.png",
+    "static/media/shadowpirate.jpg": "/static/media/shadowpirate.cc963163fd5dbf54f17b.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/static/media/pre.3129ff983a78c350cfdb.svg",
+    "index.html": "/index.html",
+    "main.41c5c8d8.css.map": "/static/css/main.41c5c8d8.css.map",
+    "main.26cf80b7.js.map": "/static/js/main.26cf80b7.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f13120c.css",
-    "static/js/main.e6e150cd.js"
+    "static/css/main.41c5c8d8.css",
+    "static/js/main.26cf80b7.js"
   ]
 }
